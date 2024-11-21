@@ -6,7 +6,7 @@ class Person:
         else:
             self.age = initialAge
 
-    # Add some more code to run some checks on initialAge
+  
 
     def amIOld(self):
         if self.age<13:
@@ -16,7 +16,7 @@ class Person:
         else:
             print("You are old.")
 
-    # Do some computations in here and print out the correct statement to the console
+
     def yearPasses(self):
         self.age+=1
 
@@ -30,6 +30,4 @@ person = Person(initial_age)
 person.amIOld()
 person.yearPasses()
 person.display_age()
-# Increment the age of the person in here
-
 
